@@ -11,7 +11,7 @@ int main()
 
 	cout << num;
 
-	int = sqaure_number(5;)
+	int num1 = sqaure_number(5);
 
 	return 0;
 }
