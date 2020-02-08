@@ -2,14 +2,12 @@
 
 //cpp
 
-
-void display_number(int num1)
+void display_num(int num)
 {
-	cout << num1 << "\n";
+	cout << num << "\n";
 }
 
-int square_number(int num)
+int square_num(int num)
 {
-	num = 100;
 	return num * num;
 }

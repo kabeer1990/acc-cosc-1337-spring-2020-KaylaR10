@@ -1,8 +1,11 @@
-//header
-#include<iostream>
-//cpp
+#include <iostream>
+#include <string>
+
 using std::cout;
+using std::string;
 
-void display_number(int num1);
+//header
 
-int square_number(int num);
+void display_num(int num);
+
+int square_num(int num);
