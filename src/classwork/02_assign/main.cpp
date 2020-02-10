@@ -12,7 +12,8 @@ int main()
 {
 	//create a double variable named hours
 	//create a double variable named hourly_rate
-	int hours, hourly_rate;
+	int hours;
+	double hourly_rate;
 
 	//Prompt user for keyboard input for hours and hourly_rate
 	//save the input to variables hours and hourly_rate
@@ -23,7 +24,7 @@ int main()
 
 	//Create a double variable named gross_salary
 	//Call the gross_pay function and save its return value to the gross_salary variable
-	int gross_salary;
+	double gross_salary;
 	gross_salary = gross_pay(hours, hourly_rate);
 
 	//Display the gross_salary variable as follows:

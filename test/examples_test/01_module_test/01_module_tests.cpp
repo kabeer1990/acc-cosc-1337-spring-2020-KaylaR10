@@ -9,6 +9,6 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test square number function")
 {
-	REQUIRE(square_number(5) == 25);
+	REQUIRE(square_num(5) == 25);
 	REQUIRE(square_num(6) == 36);
 }

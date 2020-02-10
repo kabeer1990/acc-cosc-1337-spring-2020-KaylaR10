@@ -3,7 +3,11 @@
 
 double gross_pay(int hours, double hourly_rate)
 {
-	int gross;
+	double gross;
+
+	if (hours < 0) {
+		return 0;
+	}
 
 	if (hours >= 40)
 	{
